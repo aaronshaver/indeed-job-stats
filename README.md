@@ -36,7 +36,7 @@ This will run every day at 6 AM PDT (1 PM UTC)
                     "dynamodb:BatchWriteItem"
                 ],
                 "Resource": [
-                    "arn:aws:dynamodb:us-west-2:192460637947:table/JobTitleCounts"
+                    "your:arn:here"
                 ]
             }
         ]
