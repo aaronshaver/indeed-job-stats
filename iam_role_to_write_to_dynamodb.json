@@ -23,7 +23,7 @@
                 "dynamodb:BatchWriteItem"
             ],
             "Resource": [
-                "arn:aws:dynamodb:us-west-2:123456789:table/job_title_counts"
+                "arn:aws:dynamodb:us-west-2:123456789:table/IndeedQueryStats"
             ]
         }
   ]

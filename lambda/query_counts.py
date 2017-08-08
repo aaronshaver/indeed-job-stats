@@ -24,10 +24,10 @@ def lambda_handler(event, context):
     timestamp = str(datetime.datetime.utcnow())
     count = get_query_count(url)
 
-    client.put_item(TableName='JobTitleCounts', Item={
+    client.put_item(TableName='IndeedQueryStats', Item={
         'StatId':{'S':stat_id},
         'StatTimestamp':{'S':timestamp},
-        'Title':{'S':query},
+        'Query':{'S':query},
         'Count':{'N':count}
     })
 
